@@ -61,7 +61,7 @@ Below is a summary of the key features in the dataset.
 | **target**   | Target variable indicating the presence of heart disease (1 = presence, 0 = absence).                 |
 """)
     
-    st.write("Below is the raw data used in this project:"
+    st.write("Below is the data that was used in this project:"
              )
     df = pd.read_csv("Data\heart.csv")
     st.dataframe(df, use_container_width=True)

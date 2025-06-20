@@ -33,11 +33,11 @@ if auth_status:
     st.sidebar.success("select a page above")
     st.markdown('<h1 style="text-align: center;"><u><i><b> HISTORY PAGE </b></i></u></h1>', unsafe_allow_html=True)
     st.write ("""
-              Welcome to the History Page. This section displays a record of patients’ data along with their heart disease prediction results.
+              Welcome to the History Page. This section displays a record of patients' data along with their heart disease prediction results.
 
 Each entry includes:
 
-The predicted outcome (whether the patient is likely to develop heart disease or not),
+The predicted outcome (whether the patient is likely to develop heart disease or not develop the disease),
 
 The probability/confidence score of the prediction,
 
