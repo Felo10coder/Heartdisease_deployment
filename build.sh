@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Download config.yaml
-curl -L -o config.yaml "https://drive.google.com/file/d/1sRoqZrTNgLDJIbgEuvcNzIJZEjdL4Wei/view?usp=drive_link"
+# Download config.yaml from Google Drive
+curl -L -o config.yaml "https://drive.google.com/uc?export=download&id=1sRoqZrTNgLDJIbgEuvcNzIJZEjdL4Wei"
 
-# Install Python packages
+# Install dependencies
 pip install -r requirements.txt
