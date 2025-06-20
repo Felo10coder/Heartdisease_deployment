@@ -34,7 +34,7 @@ if auth_status:
     authenticator.logout(location='sidebar')
     st.sidebar.success("select a page above")
     st.markdown('<h1 style="text-align: center;"><u><i><b> DATA PAGE </b></i></u></h1>', unsafe_allow_html=True)
-    st.write("Welcome to the Data Page. Here, you'll find an overview of the dataset used in this heart disease prediction project.")
+    st.write("Welcome to the Data Page. Here, you'll find an overview of the dataset used in this heart disease prediction project and description of the features.")
 
     st.write("""
 This project is built on a medical dataset containing health records of patients evaluated for heart disease.  
