@@ -1,0 +1,18 @@
+
+credentials:
+  usernames:
+    felixkwemoi:
+      email: felixkwemoi7@gmail.com
+      name: Felix Kwemoi
+      password: Heart_Disease#0
+    DonFelo: 
+      email: felodon434@gmail.com
+      password: Heart_Disease#1
+cookie:
+  expiry_days: 0
+  key: cookie_signature_key
+  name: cookie_name
+preauthorized:
+  emails:
+    felixkwemoi7@gmail.com
+    felodon434@gmail.com
